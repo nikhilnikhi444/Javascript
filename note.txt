@@ -1,0 +1,55 @@
+JavaScript
+----------
+JavaScript can be used in both frontend and as backend
+
+
+
+
+
+
+data type - total numbers of data type 8
+--------------
+1) string - 
+2)boolean - 
+
+
+
+
+
+
+concatenation - to join/add same or different data type
+--------------------------
+string + string = string
+string + number = string
+number + number = number
+
+variable 
+---------
+- used to store data 
+- identifiers - set of rules to create variable
+ 1) start with letter , dollar ,underscore - prefer letter
+ 2) subsequent characters can be letters digits , underscore etc ....
+ 3)if there is more than one word
+            - second word can be started with capital letter 
+            - use underscore between the words
+            -no space between the words
+
+
+ variable name = value -value can be any data type
+
+ keyword variableName = value
+
+ keyword - set of reserved words which gives special meaning to variables
+         - cannot be used as variable name function ...etc
+        
+1) const - its value does not changes - resassigning is not possible - hoisting is not possible
+2) var - value changes throughout - resassigning is possible - hoisting is possible
+3) let - resassigning is possible - accessible inside a block - hoisting is not possible
+
+hoisting -  using of variables before it is declared/create
+
+
+
+template literals 
+------------------
+- its a way of displaying contents 
