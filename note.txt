@@ -1,20 +1,21 @@
 JavaScript
 ----------
 JavaScript can be used in both frontend and as backend
+frontend - it gives bahaviour 
+backend -  it is use to logical operations 
+its a single thread programing language - line by line executions
+dynamically typed language - data type changes 
 
-
-
-
-
+extension - .js
 
 data type - total numbers of data type 8
 --------------
-1) string - 
-2)boolean - 
+1) string - single quotes or double quotes
+2) boolean - true or false 
+3) number - 
 
 
-
-
+method to check data type - typeof()
 
 
 concatenation - to join/add same or different data type
@@ -132,3 +133,85 @@ syntax
 for(variable initialization;condition;exit condition){
     statement
 }
+
+nested loop - loops within a loop 
+
+
+function
+----------
+- same task is repeatedly at different locations.
+function have to parts 
+1) function definition
+   -task
+   - syntax
+   ---------
+   function functionname(arguments...){
+            task
+   }
+2) function call 
+  - to execute the task 
+  - syntax
+  functionname(arg....)
+
+
+
+2)arrow function
+syntax
+------
+keyword variable = (arguments...)=>{
+    curly brackets used only when more than one statements
+}
+functioncalling
+variable()
+
+
+3)predefined functions
+ eg: console.log(),number(),typeof(),math.floor(),pareseInt()
+
+
+ 4)call back fuction - a function call another function are called call back fuction
+
+ 5)asynchronus and synchronous
+
+ 6)nested function - function inside another function
+
+
+
+DATASTRUCTURE
+-------------
+- it is Specilized format of organizing ,retrieving ,proccessing and storing data
+
+-eg: array ,list,linkedlist , stack , queue ,tree graph
+
+Array
+-----
+- unlike variable array can store more than one data/values
+- array can store more than one datatype
+- definition - array is single variable which can store more than one value of different datatype the are seperated by commas and enclosed with in sqaure brackets
+
+- store o key:value 
+
+key :index position 
+value :data 
+
+index - indicates the position of elements in array
+value - starts from 0 - end -array length -1
+
+length-number of items /data inside the array start from 1
+
+representation /syntax
+
+keyword variable = [items......]
+
+array operations
+----------------
+1)push() - to add data in to an Array at the end
+2)unshift() - to add data to an array at start
+3)pop() - to remove the data in an array at the end
+4)shift()- to  remove the data in an array at the start
+
+different way of accessing array elements
+-----------------------------------------
+1) for loop
+2) for in - directly access the index position
+3) for of - directly access the value of the po
