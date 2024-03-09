@@ -13,7 +13,7 @@ data type - total numbers of data type 8
 1) string - single quotes or double quotes
 2) boolean - true or false 
 3) number - 
-
+4) object
 
 method to check data type - typeof()
 
@@ -209,9 +209,78 @@ array operations
 2)unshift() - to add data to an array at start
 3)pop() - to remove the data in an array at the end
 4)shift()- to  remove the data in an array at the start
-
+5)sort()- to arranging the data  in an array
+6)flat()- to change the dimension of the array
+7)forEach()-to access each items from an array - it returns void.
+8)map(callback) - it creates an new array having same numbers elemnents in the parent array
+9)reduce(callback)- single value from an array.eg:highest ,lowest,sum
+10)filter()-to create a new array having elements that satisfy a  particular condition
+11)some()- it returns boolean value based on a condition
+12)find()-it returns the first value that satisfy a perticular condition
+13)includes()- returns boolean values based on items
+14)splice()-to add or remove from a perticular position in an array
+15)reduceRight()-iteration starts from right
 different way of accessing array elements
 -----------------------------------------
 1) for loop
 2) for in - directly access the index position
 3) for of - directly access the value of the po
+
+
+nested array -  array within a array
+
+
+
+
+string methods
+--------------
+1) toLowerCase()-convert the string into small letters
+2)toUpperCase()-convert the string into capital letters
+3)substring(start,end)-exclude the ending index
+4)startswith()-checks whether the given string starts with a particular character and return boolean values 
+              -it is case sensitive
+5)endswith()-checks whether the given string ends with a particular character and return boolean values 
+              -it is case sensitive
+6)trim()-its removes space at the start and end of a string
+7)split()-use to split the given string and it returns array
+8)Array.from()-
+9)replace()-
+10)replaceAll()
+11)slice(start,end)
+
+object
+------
+-object is used to store more than one value with more clarity to the stored data
+
+syntax
+------
+objectname={
+    key:value,....
+    keyn:valuen
+}
+
+
+operations
+-----------
+1) Add an item 
+  1)objectName=["key"]=value
+  2)Object.assign(target,{key:value})
+2) delete
+   delete objectName.key
+3)update
+   objectName["key"]=value
+4)get
+ 1)objectName[key] -key variable , exact key=["key"]
+ 2)objectName.key - exact key
+
+
+ - in - to access key
+
+
+
+ OBJECT ORIENTED PROGRRAMING(oops)- it is a modern programing paradigm(style) which consdider real time entity into objects and class
+
+
+ basic
+ ------
+ 1)class - blue print which 

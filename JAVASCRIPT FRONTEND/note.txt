@@ -1,0 +1,53 @@
+JAVASCRIPT FRONTEND
+-------------------
+- Behaviour
+
+Browser 
+--------
+Browser is an application programme that provides an interface to interact with all information available in www(world wide web)
+
+-Browser Engine - can read and display HTML,CSS and Javascript contents.
+Javascript can not directly access the html and CSS
+-but Javascript can access DOM - Doccument object model
+
+DOM
+----
+- a tree structure of HTML doccument 
+- created by Browser
+
+BOM -Browser object model
+-----
+
+
+WAY TO APPLY JAVASCRIPT WITH HTML
+------------------------------------
+1)internal js- <script></script>
+     -after the body tag close
+2)external js- create an external file with extension as .js
+    -links it with html file using script tag and mention the path in the src attribute
+
+how to access the html tag
+---------------------------
+1)Document.geteElementById("id")- it returns a perticular tag
+2)Document.getElementByTagname("tagname")- it returns html collection(array) of the perticular tag
+3)doccument.getElementByClassName("className")
+4)doccument.querySelector("tagname/#id/.className")- it returns a tag that satisfy the condition
+5)doccument.querySelectorAll("tagname/#id/.className")- nodelist-  array of all tags that satisfy the condition
+
+
+how to access the contents
+--------------------------
+1).innerHTML
+
+doccument.write(),textcontent()
+
+Events
+-------
+- Events are those actions which have the ability to update DOM
+
+eg:
+1)click
+2)change
+3)keydown
+4)submit
+5)load

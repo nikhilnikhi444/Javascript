@@ -24,5 +24,5 @@ for(let y in fruits){
 console.log('-------------------------');
 
 for(let z of fruits){
-    console.log(fruits[z]);
+    console.log(z);
 }
