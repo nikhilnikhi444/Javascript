@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS86WwNOL56gC-28ziKW89SiHWNXB2X9EaPPQ&usqp=CAU">
+    <title>Clock</title>
+    <link rel="stylesheet" href="./clock.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Riot&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+       <h1 id="Clock"></h1>
+    </div>
+</body>
+<script>
+    // function 
+    function getTime(){
+        const time = new Date()
+        console.log(time);
+        let hour = time.getHours()
+        console.log(hour);
+        let sec = time.getSeconds()
+        console.log(sec);
+        let min = time.getMinutes()
+        console.log(min);
+
+        Clock.innerHTML = `${hour} : ${min} : ${sec} ${hour>=12?'PM':'AM'}`
+        
+        setTimeout(()=>{
+            getTime()
+        },1000)
+    }
+    // function call
+    getTime()
+</script>
+</html>
